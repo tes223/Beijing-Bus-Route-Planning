@@ -15,7 +15,7 @@
 2. 在工作区根目录 pip install -r requirements.txt，当然如果你喜欢的话，也可以自己创建一个虚拟环境之后再运行。
 3. 进入get_data文件夹，在联网状态下依次运行get_bus_lines.py、get_stops.py、csv_access.py、code_converter.py，以爬取数据。前两个python文件运行中有进度提示，csv_access.py没有进度提示，运行时间较长，请耐心等待运行完成。code_converter.py用于csv文件的转码及删除空行处理，最后导出的csv文件位于data文件夹中。
 4. 在工作区根目录 python main.py
-5. 如果运行无误的话，将会弹出浏览器前端，然后即可在浏览器中使用。
+5. 如果运行无误的话，将会弹出浏览器前端，然后即可在浏览器中使用。（目前已知问题：如果这一步报错，请把data文件夹中bus_stops.csv第一行里面的1.1手动改成1，然后尝试运行）
 
 ### 对于想开箱即用的同学（release包待完善）
 1. 从本页面的右侧下载最新release包，此release包已经包含了软件运行需要的所有环境和数据。
