@@ -5,26 +5,6 @@ import csv
 import json
 from collections import defaultdict, deque
 
-
-
-# 全局声明
-graph = defaultdict(list)
-stop_id_map = {}
-line_id_map = {}
-line_end_map = {}  # 新增：线路终点站信息
-
-from collections import defaultdict, deque
-import csv
-import heapq
-from flask import Flask, request, jsonify, Response
-import json
-
-from collections import defaultdict, deque
-import csv
-import heapq
-from flask import Flask, request, jsonify, Response
-import json
-
 # 全局声明
 graph = defaultdict(list)
 stop_id_map = {}
